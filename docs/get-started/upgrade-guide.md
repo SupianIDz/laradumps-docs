@@ -4,17 +4,26 @@
 If you are using version 2, you are probably using the Laravel framework. For this some things are necessary.
 ::: 
 
-### 1 - Update dependencies:
+### 1 - Update composer dependencies:
 
+```bash
+// If using the Laravel Framework
+composer require laradumps/laradumps --dev ^3.0 -W 
 ```
-composer require laradumps/laradumps --dev ^3.0 -W
+
+```bash
+// If using PHP Agnostic
+composer require laradumps/laradumps-core --dev ^2.0 -W 
 ```
 
-This will also install the `laradumps/laradumps-core ^2.0` package as a dependency.
+```bash
+// If using Global LaraDump
+composer global require laradumps/global-laradumps ^2.0
+```
 
-### 2 - Remove DS_ from your .env file.
+### 2 - Remove all DS_ from your .env file.
 
-Remove all annotations from your projects in the .env. It has been replaced by the `laradumps.yaml` file 
+Remove all annotations from your projects in the .env.  
 
 ```php
 DS_AUTO_CLEAR_ON_PAGE_RELOAD=false // [!code --]
@@ -40,9 +49,9 @@ DS_FILE_HANDLER=phpstorm://open?file={filepath}&line={line} // [!code --]
 Download the latest application version (3.x), and open it.
 In your PHP or laravel project, run the command:
 
-* PHP (using laradumps-core)
+* PHP ()
 ```shell
-/vendor/bin/laradumps init $(pwd)
+/vendor/bin/laradumps init $(pwd) //
 ```
 
 * Laravel (using laradumps)
