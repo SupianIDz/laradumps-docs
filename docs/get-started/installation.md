@@ -21,43 +21,9 @@ Proceed to the installation instructions according to your operating system:
 
 <!--LaraDumpsVersion-->
 
-### **Windows**
-
-Click to [`Download LaraDumps v3.0.0`](https://github.com/laradumps/app/releases/download/v3.0.0/LaraDumps-Setup-3.0.0.exe) installer for Windows.
-
-Once downloaded, open it and proceed with the installer.
-
-### **Linux**
-
-#### Snapcraft
-
-Download from [https://snapcraft.io/laradumps](https://snapcraft.io/laradumps)
-
-```bash
-sudo snap install laradumps
-```
-
-#### AppImage
-
-Download the latest application image `LaraDumps-x.x.x.AppImage` from [GitHub](https://github.com/laradumps/app/releases).
-
-Click to [`Download LaraDumps v3.0.0`](https://github.com/laradumps/app/releases/download/v3.0.0/LaraDumps-3.0.0.AppImage) application image for Linux.
-
-Once downloaded, assign **execution permission** to the file:
-
-Click on `Properties`, navigate to `Permissions` and click `Allow to execute file as program`. Now, open the AppImage file to proceed with the installation.
-
-Alternatively, use the Terminal and run the command below:
-
-```shell
-chmod u+x ./LaraDumps-3.0.0.AppImage && ./LaraDumps-3.0.0.AppImage
-```
-
-*(These steps might slightly change depending on your Linux distribution).*
-
 ### **macOS**
 
-Click to [`Download LaraDumps v3.0.0`](https://github.com/laradumps/app/releases/download/v3.0.0/LaraDumps-3.0.0-universal.dmg) Apple Disc Image (.dmg) for macOS.
+Click to [`Download LaraDumps v3.0.1`](https://github.com/laradumps/app/releases/download/v3.0.1/LaraDumps-3.0.1-universal.dmg) Apple Disc Image (.dmg) for macOS.
 
 Once downloaded, open the file and drag & drop the LaraDumps app into your `Applications` folder.
 
@@ -84,6 +50,40 @@ To `authorize LaraDumps` to run, follow these steps:
 Now, LaraDumps should run just fine!
 
 <!--EndOfLaraDumpsVersion-->
+### **Windows**
+
+Click to [`Download LaraDumps v3.0.1`](https://github.com/laradumps/app/releases/download/v3.0.1/LaraDumps-Setup-3.0.1.exe) installer for Windows.
+
+Once downloaded, open it and proceed with the installer.
+
+### **Linux**
+
+#### Snapcraft
+
+Download from [https://snapcraft.io/laradumps](https://snapcraft.io/laradumps)
+
+```bash
+sudo snap install laradumps
+```
+
+#### AppImage
+
+Download the latest application image `LaraDumps-x.x.x.AppImage` from [GitHub](https://github.com/laradumps/app/releases).
+
+Click to [`Download LaraDumps v3.0.1`](https://github.com/laradumps/app/releases/download/v3.0.1/LaraDumps-3.0.1.AppImage) application image for Linux.
+
+Once downloaded, assign **execution permission** to the file:
+
+Click on `Properties`, navigate to `Permissions` and click `Allow to execute file as program`. Now, open the AppImage file to proceed with the installation.
+
+Alternatively, use the Terminal and run the command below:
+
+```shell
+chmod u+x ./LaraDumps-3.0.1.AppImage && ./LaraDumps-3.0.1.AppImage
+```
+
+*(These steps might slightly change depending on your Linux distribution).*
+
 ## Laravel Package
 
 **Requirements**: PHP 8.1+ and Laravel 10+
