@@ -136,3 +136,14 @@ app:
 :::
 
 ---
+
+### macOS auto-launch
+
+Sometimes, when debugging a variable using `ds()` in a code snippet, you may forget to open the LaraDumps desktop application. 
+To make things easier, LaraDumps provides an automatic way to open the application if you are using macOS.
+
+In `laradumps.yaml`, add:
+```yaml
+config:
+    macos_auto_launch: true
+```
