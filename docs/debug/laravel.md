@@ -77,6 +77,49 @@ The macro feature doesn't require SQL Queries to be enabled in the configuration
 
 ---
 
+### Pest Expectation
+
+::: info
+See more in [pestphp](https://pestphp.com/docs/expectations)
+:::
+
+* Only available for [laradumps/laradumps](https://github.com/laradumps/laradumps)
+
+You can also chain a `ds()` method similar to a pest expectation:
+
+```php{4}
+
+it('any test', function() {
+    expect(true)
+        ->ds() // send $this->value to LaraDumps
+        ->toBeTrue();
+})
+```
+
+### Test Response
+
+* Only available for [laradumps/laradumps](https://github.com/laradumps/laradumps)
+
+```php{5}
+
+it('can render actionsFromView property', function (string $component, object $params) {
+    livewire($component)
+        ->call('setTestThemeClass', $params->theme)
+        ->ds()
+        ->assertSeeInOrder([
+            'Dish From Actions View: 1',
+            'Dish From Actions View: 2',
+            'Dish From Actions View: 3',
+            'Dish From Actions View: 4',
+            'Dish From Actions View: 5',
+            'Dish From Actions View: 6',
+        ]);
+})->with([
+    'tailwind'  => [$component::class, (object) ['theme' => \PowerComponents\LivewirePowerGrid\Themes\Tailwind::class, 'field' => 'name']],
+    'bootstrap' => [$component::class, (object) ['theme' => \PowerComponents\LivewirePowerGrid\Themes\Bootstrap5::class, 'field' => 'name']],
+]);
+```
+
 ### Mailable
 
 Displays mail details and the HTML preview for an instance of a `Illuminate\Mail\Mailable` class.
