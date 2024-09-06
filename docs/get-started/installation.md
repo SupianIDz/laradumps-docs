@@ -23,7 +23,7 @@ Proceed to the installation instructions according to your operating system:
 
 ### **macOS**
 
-Click to [`Download LaraDumps v3.3.5`](https://github.com/laradumps/app/releases/download/v3.3.5/LaraDumps-3.3.5-universal.dmg) Apple Disc Image (.dmg) for macOS.
+Click to [`Download LaraDumps v3.3.7`](https://github.com/laradumps/app/releases/download/v3.3.7/LaraDumps-3.3.7-universal.dmg) Apple Disc Image (.dmg) for macOS.
 
 Once downloaded, open the file and drag & drop the LaraDumps app into your `Applications` folder.
 
@@ -52,7 +52,7 @@ Now, LaraDumps should run just fine!
 <!--EndOfLaraDumpsVersion-->
 ### **Windows**
 
-Click to [`Download LaraDumps v3.3.5`](https://github.com/laradumps/app/releases/download/v3.3.5/LaraDumps-Setup-3.3.5.exe) installer for Windows.
+Click to [`Download LaraDumps v3.3.7`](https://github.com/laradumps/app/releases/download/v3.3.7/LaraDumps-Setup-3.3.7.exe) installer for Windows.
 
 Once downloaded, open it and proceed with the installer.
 
@@ -70,7 +70,7 @@ sudo snap install laradumps
 
 Download the latest application image `LaraDumps-x.x.x.AppImage` from [GitHub](https://github.com/laradumps/app/releases).
 
-Click to [`Download LaraDumps v3.3.5`](https://github.com/laradumps/app/releases/download/v3.3.5/LaraDumps-3.3.5.AppImage) application image for Linux.
+Click to [`Download LaraDumps v3.3.7`](https://github.com/laradumps/app/releases/download/v3.3.7/LaraDumps-3.3.7.AppImage) application image for Linux.
 
 Once downloaded, assign **execution permission** to the file:
 
@@ -79,7 +79,7 @@ Click on `Properties`, navigate to `Permissions` and click `Allow to execute fil
 Alternatively, use the Terminal and run the command below:
 
 ```shell
-chmod u+x ./LaraDumps-3.3.5.AppImage && ./LaraDumps-3.3.5.AppImage
+chmod u+x ./LaraDumps-3.3.7.AppImage && ./LaraDumps-3.3.7.AppImage
 ```
 
 *(These steps might slightly change depending on your Linux distribution).*
