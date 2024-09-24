@@ -19,9 +19,9 @@ Proceed to the installation instructions according to your operating system:
 
 | Operation System                                                                | Download (latest)                                                                                                                      |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="./../_media/os/macos.png" width="40" alt="LaraDumps macOS App" />     | [dmg](https://github.com/laradumps/app/releases/download/v3.3.7/LaraDumps-3.3.7-universal.dmg)                                         |
-| <img src="./../_media/os/linux.png" width="40" alt="LaraDumps Linux App" />     | [AppImage](https://github.com/laradumps/app/releases/download/v3.3.7/LaraDumps-3.3.7.AppImage), [snap](https://snapcraft.io/laradumps) |
-| <img src="./../_media/os/windows.png" width="40" alt="LaraDumps Windows App" /> | [exe](https://github.com/laradumps/app/releases/download/v3.3.7/LaraDumps-Setup-3.3.7.exe)                                             |
+| <img src="./../_media/os/macos.png" width="40" alt="LaraDumps macOS App" />     | [dmg](https://github.com/laradumps/app/releases/download/v3.4.0/LaraDumps-3.4.0-universal.dmg)                                         |
+| <img src="./../_media/os/linux.png" width="40" alt="LaraDumps Linux App" />     | [AppImage](https://github.com/laradumps/app/releases/download/v3.4.0/LaraDumps-3.4.0.AppImage), [snap](https://snapcraft.io/laradumps) |
+| <img src="./../_media/os/windows.png" width="40" alt="LaraDumps Windows App" /> | [exe](https://github.com/laradumps/app/releases/download/v3.4.0/LaraDumps-Setup-3.4.0.exe)                                             |
 
 ### macOS
 
@@ -74,7 +74,7 @@ Click on `Properties`, navigate to `Permissions` and click `Allow to execute fil
 Alternatively, use the Terminal and run the command below:
 
 ```shell
-chmod u+x ./LaraDumps-3.3.7.AppImage && ./LaraDumps-3.3.7.AppImage
+chmod u+x ./LaraDumps-3.4.0.AppImage && ./LaraDumps-3.4.0.AppImage
 ```
 
 *(These steps might slightly change depending on your Linux distribution).*
