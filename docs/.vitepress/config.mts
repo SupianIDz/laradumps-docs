@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,9 +25,12 @@ export default defineConfig({
   ],
   markdown: {
     toc: {
-        level: [2, 2],
-      },
-        anchor: { level: [1, 2, 3] },
+      level: [2, 2],
+    },
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    },
+    anchor: { level: [1, 2, 3] },
   },
   appearance: 'dark',
   lang: 'en-US',
