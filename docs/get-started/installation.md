@@ -36,7 +36,7 @@ brew uninstall laradumps/app/laradump
 
 ### .dmg
 
-[Download latest](https://github.com/laradumps/app/releases/download/v3.4.0/LaraDumps-3.4.0-universal.dmg )
+[Download latest](https://github.com/laradumps/app/releases/download/v3.4.2/LaraDumps-3.4.2-universal.dmg )
 
 == Linux
 
@@ -50,7 +50,7 @@ sudo snap install laradumps
 
 ### AppImage
 
-[Download latest](https://github.com/laradumps/app/releases/download/v3.4.0/LaraDumps-3.4.0.AppImage)
+[Download latest](https://github.com/laradumps/app/releases/download/v3.4.2/LaraDumps-3.4.2.AppImage)
 
 Download the latest application image `LaraDumps-x.x.x.AppImage` from [GitHub](https://github.com/laradumps/app/releases).
 
@@ -61,14 +61,14 @@ Click on `Properties`, navigate to `Permissions` and click `Allow to execute fil
 Alternatively, use the Terminal and run the command below:
 
 ```shell
-chmod u+x ./LaraDumps-3.4.0.AppImage && ./LaraDumps-3.4.0.AppImage
+chmod u+x ./LaraDumps-3.4.2.AppImage && ./LaraDumps-3.4.2.AppImage
 ```
 
 *(These steps might slightly change depending on your Linux distribution).*
 
 == Windows
 
-[Download latest](https://github.com/laradumps/app/releases/download/v3.4.0/LaraDumps-Setup-3.4.0.exe)
+[Download latest](https://github.com/laradumps/app/releases/download/v3.4.2/LaraDumps-Setup-3.4.2.exe)
 
 Once downloaded, open it and proceed with the installer.
 
